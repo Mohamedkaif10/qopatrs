@@ -44,7 +44,7 @@ const Accordion = () => {
             className={isActive}
             onClick={() => handleToggle(index)}
           >
-            <img src={card.image} />
+            <img src={card.image} alt="Client 4"/>
             <div className="content">
               <div>
                 <h2>{card.header}</h2>
